@@ -21,6 +21,10 @@ body {
     
     
 }
+#formLink {
+    display: block;
+    color: lightblue
+}
 a {
     display: flex;
     justify-content: center;
