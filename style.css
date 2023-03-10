@@ -49,3 +49,21 @@ img {
     width: 35px;
     ;
 }
+
+#footer {
+    display: flex;
+    align-items: flex-end;
+  justify-self: flex-end;
+  flex: 1;
+  height: 100%; 
+  width: 100%;
+    
+}
+h4 {
+    color: white;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+   margin: 0;
+   padding: 5px 0px;
+}
+
