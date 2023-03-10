@@ -56,7 +56,6 @@ img {
 }
 
 #footer {
-    position: fixed;
     display: flex;
     align-items: flex-end;
   justify-self: flex-end;
