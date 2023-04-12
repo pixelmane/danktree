@@ -56,7 +56,9 @@ a {
     width: 100%;
     
 }
-
+a:hover {
+    cursor: pointer;
+}
 .socialBox {
     color: white;
     display: flex;
