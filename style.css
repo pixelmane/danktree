@@ -31,11 +31,27 @@ body {
     align-items: center;
     
 }
+
+#rhinoNavBar {
+    width: 100%;
+
+    background-color: rgba(0,0,0,.0);
+   justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+}
 #navLogoCont {
 
     width: 30px;
     height: 30px;
     margin-left: 10px;
+}
+
+#rhinoLogo {
+    width: 80%;
+    max-width: 400px;
 }
 #navCompanyName {
     
@@ -62,11 +78,10 @@ a:hover {
 .socialBox {
     color: white;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
     max-width: 300px;
-   
+   height: 100px;
     border-radius: 5px;
     background-color: rgba(0,0,0,.7);
     margin: 5px 0px;
@@ -74,13 +89,23 @@ a:hover {
 .socialBoxHome {
     
 }
+
 img {
     height: 100%;
     width: 100%;
 }
+#rhinoImages {
+    flex: 1;
+    width: 75px;
+}
+
+#rhinoLabels {
+    flex: 2;
+}
 .imageContainer {
-    width: 12%;
-    ;
+    flex: 1;
+    margin: 10px 10px 10px 10px;
+    
 }
 
 #footer {
