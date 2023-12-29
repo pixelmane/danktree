@@ -90,15 +90,15 @@ a:hover {
     
 }
 
-img {
-    height: 100%;
-    width: 100%;
-}
+
 #rhinoImages {
     flex: 1;
     width: 75px;
 }
-
+img {
+    height: 100%;
+    width: 100%;
+}
 #rhinoLabels {
     flex: 2;
 }
