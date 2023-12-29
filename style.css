@@ -7,7 +7,10 @@ body {
     
     margin: 0;
 }
-
+img {
+    height: 100%;
+    width: 100%;
+}
 #pageContainer {
     background-image: url(mm.png);
     background-size: cover;
@@ -51,6 +54,7 @@ body {
 
 #rhinoLogo {
     width: 80%;
+    
     max-width: 400px;
 }
 #navCompanyName {
@@ -87,24 +91,21 @@ a:hover {
     margin: 5px 0px;
 }
 
-
-
-.rhinoImages {
-    
-    width: 75px;
-}
-img {
-    height: 100%;
-    width: 100%;
-}
-.rhinoLabels {
-    flex: 2;
-}
 .imageContainer {
-    flex: 1;
+   
     margin: 10px 10px 10px 10px;
     
 }
+
+.rhinoImages {
+   
+    width: 75px;
+}
+
+.rhinoLabels {
+    flex: 2;
+}
+
 
 #footer {
     display: flex;
