@@ -91,7 +91,16 @@ a:hover {
     background-color: rgba(0,0,0,.7);
     margin: 5px 0px;
 }
-
+.tempOverlay {
+    position: absolute;
+    margin-top: 5px;
+    color:rgb(253, 10, 176);
+    font-size: 20px;
+    opacity: .75;
+    
+    
+    
+}
 
 .imageContainer {
    
